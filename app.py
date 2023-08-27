@@ -10,7 +10,7 @@ st.write('hamidreza badr')
 conn = st.experimental_connection('gcs', type=FilesConnection)
 st.write('hamidreza badr')
 
-df = conn.read("streamlit-bucket-hamid/myfile.csv", input_format="csv", ttl=600)
+df = conn.read(f"streamlit-bucket-hamid/myfile.csv", input_format="csv", ttl=600)
 st.write('reza badr ')
 
 # Print results.
