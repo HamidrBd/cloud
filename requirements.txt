@@ -1,0 +1,6 @@
+# requirements.txt
+gcsfs
+streamlit
+
+# Direct pypi install coming soon
+git+https://github.com/streamlit/files-connection
